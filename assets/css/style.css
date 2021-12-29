@@ -1,0 +1,50 @@
+html{
+    background-color: #010808;
+    
+}
+body{
+    background-color: #010808;
+
+}
+/*Navbar*/
+#logo{
+    width: 32px;
+}
+.navbar{
+    position:-webkit-sticky;
+    background: url();
+    
+}
+
+/*carousel*/
+
+/*quienes somos*/
+#quienesSomos{
+    background-color: #010808;
+    color: #ffff;
+}
+.blue-div{
+    background-color: #17A3B8;
+    height: 40px;
+}
+.blue-div i{
+    color: #ffff;
+    
+}
+
+/*detacados*/
+
+#destacados{
+    background-color: #010808;
+
+}
+
+
+
+.card-body{
+    background-color:#17A3B8;
+    color: #ffff;
+}
+#card-img2{
+    height: 190.69px;
+}
