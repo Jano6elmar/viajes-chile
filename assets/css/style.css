@@ -124,6 +124,7 @@ footer a{
 }
 @media only screen and (min-width: 320px) and (max-width: 1333px){
 
+    /*Alineación de elementos del footer en tamaños de pantalla pequeños*/
     footer .logo2{
         text-align: center;
     }    
@@ -134,6 +135,7 @@ footer a{
 }
 @media only screen and (min-width: 320px) and (max-width: 1333px){
 
+        /*Ajuste de la ubicación de las cards de destacados en tamaños pequeños*/
         #destacados .card{
             display:inline-block ;
         }
