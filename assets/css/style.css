@@ -4,9 +4,18 @@ html{
 }
 body{
     background-color: #010808;
+    
 
 }
 /*Navbar*/
+.navbar{
+    font-family: 'Bebas Neue' , 'cursive';
+    font-size: 30px;
+}
+#logo-letras{
+    font-size: 30px ;
+}
+
 #logo{
     width: 32px;
 }
@@ -70,12 +79,37 @@ body{
 /*footer*/
 footer{
     background-color: #17A3B8;
-    height: 80px;
+    height: 130px;
     color: #ffff;
 }
-footer .container{
-    margin-left: 200px;
+ 
+footer .logo2{
+    text-align: end;
 }
 footer .redes{
-    margin-left: 400px;
+    text-align: center;
+    color: #ffff;
+
+} 
+footer a{
+    color: #ffff;
+
+}
+@media only screen and (min-width: 320px) and (max-width: 1333px){
+
+    footer .logo2{
+        text-align: center;
+    }    
+    footer .redes{
+        text-align: center;
+    } 
+
+}
+@media only screen and (min-width: 320px) and (max-width: 1333px){
+
+        #destacados .card{
+            display:inline-block ;
+        }
+
+
 }
