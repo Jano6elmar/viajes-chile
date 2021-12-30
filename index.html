@@ -72,12 +72,12 @@
        <div class="container">
         <h2>¿Quiénes somos?</h2>
         <hr class="line opacity-100">
-          <div id="div-parrafos" class="row text-start my-1 mx-1">
+          <div id="div-parrafos" class="row text-start my-1 mx-1" >
             <div class="col-4">
-              <div class="blue-div">
-                <i class="fas fa-plane my-1 fa-2x"></i>
+              <div class="blue-div text-center" data-bs-toggle="tooltip" data-bs-placement="right" title="dobleclickeame" >
+                <i id="icon1" class="fas fa-plane my-1 fa-2x"data-bs-toggle="tooltip" data-bs-placement="bottom" title="clickeame"></i>
               </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Cupiditate, qui quod est incidunt at libero vitae enim repudiandae,
                 reprehenderit praesentium voluptatibus et quasi! Cum, maiores
                   magnam nesciunt facilis dolorem nostrum.
@@ -96,7 +96,7 @@
                 </p>            
             </div>
             <div class="col-4">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              <p id="parrafo2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Cupiditate, qui quod est incidunt at libero vitae enim repudiandae,
                 reprehenderit praesentium voluptatibus et quasi! Cum, maiores
                   magnam nesciunt facilis dolorem nostrum.
@@ -113,11 +113,13 @@
                 sed totam reiciendis autem cupiditate illo, tempore explicabo tempora,
                 adipisci perferendis corporis laudantium!
                 </p>
-              <div class="blue-div"><i class="fas fa-mountain my-1 fa-2x"></i></div>
+              <div class="blue-div text-center" data-bs-toggle="tooltip" data-bs-placement="right" title="dobleclickeame">
+                <i id="icon2" class="fas fa-mountain my-1 fa-2x"data-bs-toggle="tooltip" data-bs-placement="bottom" title="clickeame"></i></div>
             </div>
             <div class="col-4">
-              <div class="blue-div"><i class="fas fa-route my-1 fa-2x"></i></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              <div class="blue-div text-center" data-bs-toggle="tooltip" data-bs-placement="left" title="dobleclickeame">
+                <i id="icon3"class="fas fa-route my-1 fa-2x"data-bs-toggle="tooltip" data-bs-placement="top" title="clickeame"></i></div>
+                <p id="parrafo3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Cupiditate, qui quod est incidunt at libero vitae enim repudiandae,
                 reprehenderit praesentium voluptatibus et quasi! Cum, maiores
                   magnam nesciunt facilis dolorem nostrum.
@@ -147,9 +149,10 @@
             <div class="row mx-3 my-4">
               <div class="caja-card col-12 col-sm-6 col-lg-3 my-4">
                 <div class="card " style="width: 14rem;">
-                  <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                 
+                  <img id="card-img1" src="assets/img/card1.jpg" class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal1" alt="...">
                     <div class="card-body">
-                      <h3>Lorem ipsum dolor sit amet </h3>
+                      <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="haz click sobre la imagen">Lorem ipsum dolor sit amet </h3>
                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Hic consectetur accusantium fugit quas.</p>
                     </div>
@@ -157,9 +160,9 @@
               </div>
               <div class="col-12 col-sm-6 col-lg-3 my-4">
                 <div class="card" style="width: 14rem;">
-                  <img id="card-img2" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                  <img id="card-img2" src="assets/img/card2.jpg" class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal2" alt="...">
                     <div class="card-body">
-                      <h3>Lorem ipsum dolor sit amet </h3>
+                      <h3 data-bs-toggle="tooltip" data-bs-placement="left" title="haz click sobre la imagen">Lorem ipsum dolor sit amet </h3>
                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Hic consectetur accusantium fugit quas.</p>
                     </div>
@@ -167,9 +170,9 @@
               </div>
               <div class="col-12 col-sm-6 col-lg-3 my-4">
                 <div class="card " style="width: 14rem;">
-                  <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                  <img src="assets/img/card3.jpg" class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal3"  alt="...">
                     <div class="card-body">
-                      <h3>Lorem ipsum dolor sit amet </h3>
+                      <h3 data-bs-toggle="tooltip" data-bs-placement="right" title="haz click sobre la imagen">Lorem ipsum dolor sit amet </h3>
                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Hic consectetur accusantium fugit quas.</p>
                     </div>
@@ -177,9 +180,9 @@
               </div>
               <div class="col-12 col-sm-6 col-lg-3 my-4">
                 <div class="card "  style="width: 14rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card4.jpg" class="card-img-top" data-bs-toggle="modal" data-bs-target="#exampleModal4" alt="...">
                     <div class="card-body">
-                      <h3>Lorem ipsum dolor sit amet </h3>
+                      <h3 data-bs-toggle="tooltip" data-bs-placement="bottom" title="haz click sobre la imagen">Lorem ipsum dolor sit amet </h3>
                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Hic consectetur accusantium fugit quas.</p>
                     </div>
@@ -215,6 +218,75 @@
          
        </div>
      </footer>
+
+     <!-- Modal -->
+
+     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Primera imagen Destacada</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Segunda imagen Destacada</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div><div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tercera imagen Destacada</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div><div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cuarta imagen Destacada</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
      <script src="//embed.typeform.com/next/embed.js"></script>
